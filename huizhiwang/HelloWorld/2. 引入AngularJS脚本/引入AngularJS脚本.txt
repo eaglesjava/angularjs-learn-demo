@@ -1,0 +1,15 @@
+创建应用
+
+认识了AngularJS框架，我们开始创建第一个AngularJS应用。
+
+AngularJS是以一个JavaScript文件形式发布的，可通过script标签载入AngularJS脚本，如下所示：
+
+<script src="http://www.hubwiz.com/scripts/angular.min.js"></script>
+
+复制以下代码至右边栏，做好准备工作。
+
+<div ng-app="" ng-init="name='World'">
+   Hello {{ name }}！
+</div>	
+
+点击运行结果查看是否为“Hello World”，如正确则表示AngularJS脚本成功引入。
